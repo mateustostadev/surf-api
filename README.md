@@ -96,7 +96,6 @@ A API Surf Horizon oferece as seguintes funcionalidades:
 
    **Resposta:**
    ```json
- [
  {
   "message": "Surfista cadastrado com sucesso.",
   "surfista": {
@@ -104,8 +103,7 @@ A API Surf Horizon oferece as seguintes funcionalidades:
     "nome": "Mateus",
     "país": "Brazil"
   }
-}
-    ```
+} ```
     
 3. **Criar Novas Baterias**
    - Rota: `POST /api/baterias`
