@@ -25,5 +25,4 @@ class Bateria extends Model
         return $this->ondas->sortByDesc('calcularMedia')->first()->surfista;
     }
 
-    // Outros métodos ou lógica podem ser adicionados conforme necessário
 }
