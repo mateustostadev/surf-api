@@ -47,6 +47,15 @@ Antes de começar, certifique-se de ter os seguintes requisitos instalados em se
 
 6. Configure o acesso ao banco de dados no arquivo `.env`.
 
+```bash
+    DB_CONNECTION=mysql
+    DB_HOST=127.0.0.1
+    DB_PORT=3306
+    DB_DATABASE=seu-banco-aqui      
+    DB_USERNAME=seu-usuario
+    DB_PASSWORD=sua-senha 
+    ```
+
 7. Execute as migrações para criar as tabelas do banco de dados:
 
     ```bash
