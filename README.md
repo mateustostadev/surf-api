@@ -198,19 +198,7 @@ A API Surf Horizon oferece as seguintes funcionalidades:
                 "soma_notas_finais_maiores": 5
             }
         }
-    ],
-    "info_vencedor": {
-        "surfista_id": 2,
-        "notas_finais": [
-            {
-                "nota_final": 2.5
-            },
-            {
-                "nota_final": 2.5
-            }
-        ],
-        "soma_notas_finais_maiores": 5
-    }
+    ]
 }
 ```
 
