@@ -88,7 +88,7 @@ A API Surf Contest oferece as seguintes funcionalidades:
 
 Você pode testar os endpoints utilizando o [Postman](https://www.postman.com/). Importe a coleção do Postman usando o seguinte link:
 
-[![Run in Postman](https://run.pstmn.io/button.svg)](https://www.postman.com/payload-saganist-74994937)
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/30099208-910d3de9-2aa1-4a21-b9e3-d2c2049a76ec)
 
 ## Considerações Finais
 
