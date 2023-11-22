@@ -63,7 +63,7 @@ Antes de começar, certifique-se de ter os seguintes requisitos instalados em se
 
 ## Utilizando a API
 
-A API Surf Contest oferece as seguintes funcionalidades:
+A API Surf Horizon oferece as seguintes funcionalidades:
 
 1. **Inserir Surfistas**
    - Rota: `POST /api/surfistas`
