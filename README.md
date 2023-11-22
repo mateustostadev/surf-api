@@ -59,7 +59,7 @@ Antes de começar, certifique-se de ter os seguintes requisitos instalados em se
     php artisan serve
     ```
 
-9. Acesse o Laravel em `http://127.0.0.1:8000` no seu navegador.
+9. Acesse o Laravel em `http://127.0.0.1:8000` no seu navegador e faça os devidos testes da API.
 
 ## Utilizando a API
 
