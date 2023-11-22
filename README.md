@@ -2,7 +2,7 @@
 
 ## Introdução
 
-Bem-vindo à documentação da API Surf Horizon. Esta API permite gerenciar competições de surfe, surfistas, baterias, ondas e notas associadas a cada onda. A aplicação foi desenvolvida utilizando o framework Laravel, versão mais recente (10.32.0), e utiliza o banco de dados MySQL (8.0) para armazenar os dados.
+Bem-vindo à documentação da API Surf Horizon. Esta API permite gerenciar competições de surfe, surfistas, baterias, ondas e notas associadas a cada onda. A aplicação foi desenvolvida utilizando o framework Laravel, versão mais recente (10.32.1), e utiliza o banco de dados MySQL (8.0) para armazenar os dados.
 
 ## Instalação e Configuração do Laravel
 
