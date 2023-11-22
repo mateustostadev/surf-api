@@ -47,7 +47,6 @@ Antes de começar, certifique-se de ter os seguintes requisitos instalados em se
 
 6. Configure o acesso ao banco de dados no arquivo `.env`.
 
-
 7. Execute as migrações para criar as tabelas do banco de dados:
 
     ```bash
