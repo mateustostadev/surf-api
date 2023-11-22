@@ -70,7 +70,7 @@ A API Surf Horizon oferece as seguintes funcionalidades:
 1. **Obter Todos os Surfistas Cadastrados**
    - Rota: `GET /api/surfistas`
   
-    **Resposta:**
+    **Resposta Exemplo:**
    ```json
    [
      {
@@ -161,7 +161,7 @@ A API Surf Horizon oferece as seguintes funcionalidades:
 }
 ```
 
-6. **Obter o Vencedor de uma Bateria**
+### 6. Obter o Vencedor de uma Bateria
    - Rota: `GET /api/baterias/{id}/vencedor`
    - Parâmetros de entrada: `id` (integer).
 
