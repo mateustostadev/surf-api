@@ -34,4 +34,4 @@ class SurfistaController extends Controller
         $surfistas = Surfista::all();
         return response()->json($surfistas);
     }
-}   
+}
