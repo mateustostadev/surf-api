@@ -33,10 +33,15 @@ Antes de começar, certifique-se de ter os seguintes requisitos instalados em se
     composer install
     ```
 
-4. Copie o arquivo `.env.example` para um novo arquivo chamado `.env`:
+4. Faça uma cópia do arquivo `.env.example` e renomeie para `.env`. Abra o arquivo `.env` e configure as variáveis de ambiente, como a conexão com o banco de dados.
 
     ```bash
-    cp .env.example .env
+    DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=seu-banco-aqui      
+DB_USERNAME=seu-usuario
+DB_PASSWORD=sua-senha 
     ```
 
 5. Configure o acesso ao banco de dados no arquivo `.env`.
