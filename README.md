@@ -33,7 +33,10 @@ Antes de começar, certifique-se de ter os seguintes requisitos instalados em se
     composer install
     ```
 
-Faça uma cópia do arquivo `.env.example` e renomeie para `.env`. Abra o arquivo `.env` e configure as variáveis de ambiente, especialmente as relacionadas à conexão com o banco de dados.
+4. Faça uma cópia do arquivo `.env.example` e renomeie para `.env`.
+
+   
+5.  Abra o arquivo `.env` e configure as variáveis de ambiente, especialmente as relacionadas à conexão com o banco de dados.
 
 ```dotenv
 DB_CONNECTION=mysql
@@ -44,7 +47,6 @@ DB_USERNAME=seu-usuario
 DB_PASSWORD=sua-senha
 ```
 
-5. Configure o acesso ao banco de dados no arquivo `.env`.
 
 6. Execute as migrações para criar as tabelas do banco de dados:
 
