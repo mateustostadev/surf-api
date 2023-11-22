@@ -71,7 +71,7 @@ A API Surf Horizon oferece as seguintes funcionalidades:
  ### 1. Obter Todos os Surfistas Cadastrados
    - Rota: `GET /api/surfistas`
   
-    **Resposta Exemplo:**
+ **Resposta Exemplo:**
    ```json
    [
      {
