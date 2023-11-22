@@ -67,22 +67,41 @@ Antes de começar, certifique-se de ter os seguintes requisitos instalados em se
 
 A API Surf Horizon oferece as seguintes funcionalidades:
 
-1. **Inserir Surfistas**
+1. **Obter Todos os Surfistas Cadastrados**
+   - Rota: `GET /api/surfistas`
+  
+    **Resposta:**
+   ```json
+   [
+     {
+       "id": 1,
+       "nome": "Surfista1",
+       "país": "Brasil"
+     },
+     {
+       "id": 2,
+       "nome": "Surfista2",
+       "país": "EUA"
+     }
+   ]
+
+2. **Inserir Surfistas**
    - Rota: `POST /api/surfistas`
    - Parâmetros de entrada: `nome` (string), `país` (string).
-
-2. **Obter Todos os Surfistas Cadastrados**
-   - Rota: `GET /api/surfistas`
 
 3. **Criar Novas Baterias**
    - Rota: `POST /api/baterias`
    - Parâmetros de entrada: `surfista1` (integer), `surfista2` (integer).
 
-4. **Cadastrar Novas Notas em uma Onda**
+4. **Cadastrar Nova Onda em uma Bateria**
+   - Rota: `POST /api/ondas`
+   - Parâmetros de entrada: `bateria` (integer), `surfista` (integer).
+     
+5. **Cadastrar Novas Notas em uma Onda**
    - Rota: `POST /api/notas`
    - Parâmetros de entrada: `onda` (integer), `notaParcial1` (float), `notaParcial2` (float), `notaParcial3` (float).
 
-5. **Obter o Vencedor de uma Bateria**
+6. **Obter o Vencedor de uma Bateria**
    - Rota: `GET /api/baterias/{id}/vencedor`
    - Parâmetros de entrada: `id` (integer).
 
@@ -94,4 +113,4 @@ Você pode testar os endpoints utilizando o [Postman](https://www.postman.com/).
 
 ## Considerações Finais
 
-Certifique-se de seguir as instruções e exemplos fornecidos para interagir corretamente com a API Surf Horizon. Em caso de dúvidas ou problemas, consulte a documentação ou entre em contato com o suporte técnico.
+Certifique-se de seguir as instruções e exemplos fornecidos para interagir corretamente com a API Surf Horizon. Em caso de dúvidas ou problemas, consulte a documentação ou entre em contato.
