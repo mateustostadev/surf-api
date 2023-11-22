@@ -105,9 +105,19 @@ A API Surf Horizon oferece as seguintes funcionalidades:
   }
 } ```
     
-3. **Criar Novas Baterias**
-   - Rota: `POST /api/baterias`
-   - Parâmetros de entrada: `surfista1` (integer), `surfista2` (integer).
+  
+### 3. Criar Novas Baterias
+- **Rota:** `POST /api/baterias`
+- **Parâmetros de Entrada:** `surfista1` (integer), `surfista2` (integer).
+
+**Resposta Exemplo:**
+```json
+{
+  "id": 1,
+  "surfista1": 1,
+  "surfista2": 2
+}
+
 
 4. **Cadastrar Nova Onda em uma Bateria**
    - Rota: `POST /api/ondas`
