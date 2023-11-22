@@ -33,16 +33,16 @@ Antes de começar, certifique-se de ter os seguintes requisitos instalados em se
     composer install
     ```
 
-4. Faça uma cópia do arquivo `.env.example` e renomeie para `.env`. Abra o arquivo `.env` e configure as variáveis de ambiente, como a conexão com o banco de dados.
+Faça uma cópia do arquivo `.env.example` e renomeie para `.env`. Abra o arquivo `.env` e configure as variáveis de ambiente, especialmente as relacionadas à conexão com o banco de dados.
 
-    ```html
-    DB_CONNECTION=mysql
+```dotenv
+DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
 DB_DATABASE=seu-banco-aqui      
 DB_USERNAME=seu-usuario
-DB_PASSWORD=sua-senha 
-    ```
+DB_PASSWORD=sua-senha
+```
 
 5. Configure o acesso ao banco de dados no arquivo `.env`.
 
