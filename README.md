@@ -88,7 +88,7 @@ A API Surf Horizon oferece as seguintes funcionalidades:
 
 Você pode testar os endpoints utilizando o [Postman](https://www.postman.com/). Importe a coleção "API SURF V1 - HORIZON TESTE 2" do Postman usando o seguinte link:
 
-[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/30099208-910d3de9-2aa1-4a21-b9e3-d2c2049a76ec)
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/af29ea6f-4ede-4233-bf09-e6196e413cc0)
 
 ## Considerações Finais
 
