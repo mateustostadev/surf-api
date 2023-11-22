@@ -88,23 +88,22 @@ A API Surf Horizon oferece as seguintes funcionalidades:
        "updated_at": "2023-11-22T12:52:26.000000Z"   
      }
    ]
-
+   ```
+   
 2. **Inserir Surfistas**
    - Rota: `POST /api/surfistas`
    - Parâmetros de entrada: `nome` (string), `país` (string).
 
    **Resposta:**
    ```json
-   [
-    {
-    "message": "Surfista cadastrado com sucesso.",
-    "surfista": {
-        "id": 1,
-        "nome": "Mateus",
-        "país": "Brazil"
-    }
+  {
+  "message": "Surfista cadastrado com sucesso.",
+  "surfista": {
+    "id": 1,
+    "nome": "Mateus",
+    "país": "Brazil"
   }
-]
+}
    
 3. **Criar Novas Baterias**
    - Rota: `POST /api/baterias`
