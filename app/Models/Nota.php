@@ -17,5 +17,4 @@ class Nota extends Model
         return $this->belongsTo(Onda::class, 'onda', 'id');
     }
 
-    // Outros métodos ou lógica podem ser adicionados conforme necessário
 }
