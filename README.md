@@ -103,7 +103,7 @@ A API Surf Horizon oferece as seguintes funcionalidades:
   "message": "Surfista cadastrado com sucesso.",
   "surfista": {
     "id": 1,
-    "nome": "Mateus",
+    "nome": "Surfista",
     "país": "Brazil"
   }
 }
