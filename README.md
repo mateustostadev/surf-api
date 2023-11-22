@@ -162,8 +162,9 @@ A API Surf Horizon oferece as seguintes funcionalidades:
 ```
 
 ### 6. Obter o Vencedor de uma Bateria
-   - Rota: `GET /api/baterias/{id}/vencedor`
-   - Parâmetros de entrada: `id` (integer).
+   - **Rota:** `GET /api/baterias/{id}/vencedor`
+   - **Parâmetros de Entrada:**
+   -  `id` (integer).
 
 **Resposta Exemplo:**
 ```json
