@@ -103,8 +103,9 @@ A API Surf Horizon oferece as seguintes funcionalidades:
         "nome": "Mateus",
         "país": "Brazil"
     }
-}
-   ]
+  }
+]
+   
 3. **Criar Novas Baterias**
    - Rota: `POST /api/baterias`
    - Parâmetros de entrada: `surfista1` (integer), `surfista2` (integer).
