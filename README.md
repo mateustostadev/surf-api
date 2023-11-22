@@ -117,7 +117,7 @@ A API Surf Horizon oferece as seguintes funcionalidades:
   "surfista1": 1,
   "surfista2": 2
 }
-
+```
 
 4. **Cadastrar Nova Onda em uma Bateria**
    - Rota: `POST /api/ondas`
