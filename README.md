@@ -74,14 +74,18 @@ A API Surf Horizon oferece as seguintes funcionalidades:
    ```json
    [
      {
-       "id": 1,
+       "numero": 1,
        "nome": "Surfista1",
        "país": "Brasil"
+       "created_at": "2023-11-22T12:52:26.000000Z",
+       "updated_at": "2023-11-22T12:52:26.000000Z"   
      },
      {
-       "id": 2,
+       "numero": 2,
        "nome": "Surfista2",
        "país": "EUA"
+       "created_at": "2023-11-22T12:52:26.000000Z",
+       "updated_at": "2023-11-22T12:52:26.000000Z"   
      }
    ]
 
@@ -89,6 +93,18 @@ A API Surf Horizon oferece as seguintes funcionalidades:
    - Rota: `POST /api/surfistas`
    - Parâmetros de entrada: `nome` (string), `país` (string).
 
+   **Resposta:**
+   ```json
+   [
+    {
+    "message": "Surfista cadastrado com sucesso.",
+    "surfista": {
+        "id": 1,
+        "nome": "Mateus",
+        "país": "Brazil"
+    }
+}
+   ]
 3. **Criar Novas Baterias**
    - Rota: `POST /api/baterias`
    - Parâmetros de entrada: `surfista1` (integer), `surfista2` (integer).
