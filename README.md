@@ -39,14 +39,14 @@ Antes de começar, certifique-se de ter os seguintes requisitos instalados em se
    
 5.  Abra o arquivo `.env` e configure as variáveis de ambiente, especialmente as relacionadas à conexão com o banco de dados.
 
-   ```dotenv
-   DB_CONNECTION=mysql
-   DB_HOST=127.0.0.1
-   DB_PORT=3306
-   DB_DATABASE=seu-banco-aqui      
-   DB_USERNAME=seu-usuario
-   DB_PASSWORD=sua-senha
-   ```
+       ```dotenv
+       DB_CONNECTION=mysql
+       DB_HOST=127.0.0.1
+       DB_PORT=3306
+       DB_DATABASE=seu-banco-aqui      
+       DB_USERNAME=seu-usuario
+       DB_PASSWORD=sua-senha
+       ```
 
 
 6. Execute as migrações para criar as tabelas do banco de dados:
