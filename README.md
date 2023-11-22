@@ -36,7 +36,8 @@ Antes de começar, certifique-se de ter os seguintes requisitos instalados em se
 
 4. Faça uma cópia do arquivo `.env.example` e renomeie para `.env`.
 
-   
+
+
 5.  Abra o arquivo `.env` e configure as variáveis de ambiente, especialmente as relacionadas à conexão com o banco de dados.
 
        ```dotenv
@@ -67,7 +68,7 @@ Antes de começar, certifique-se de ter os seguintes requisitos instalados em se
 
 A API Surf Horizon oferece as seguintes funcionalidades:
 
-1. **Obter Todos os Surfistas Cadastrados**
+ ### 1. Obter Todos os Surfistas Cadastrados
    - Rota: `GET /api/surfistas`
   
     **Resposta Exemplo:**
