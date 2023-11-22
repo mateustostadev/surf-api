@@ -35,7 +35,7 @@ Antes de começar, certifique-se de ter os seguintes requisitos instalados em se
 
 4. Faça uma cópia do arquivo `.env.example` e renomeie para `.env`. Abra o arquivo `.env` e configure as variáveis de ambiente, como a conexão com o banco de dados.
 
-    ```bash
+    ```html
     DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
