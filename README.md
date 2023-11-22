@@ -157,7 +157,11 @@ A API Surf Horizon oferece as seguintes funcionalidades:
 **Resposta Exemplo:**
 ```json
 {
-    "message": "Notas cadastradas com sucesso."
+    "message": "Notas cadastradas com sucesso.",
+    "onda_id": 2,
+    "notaParcial1": 3,
+    "notaParcial2": 2.5,
+    "notaParcial3": 2
 }
 ```
 
