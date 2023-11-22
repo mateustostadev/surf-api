@@ -50,13 +50,10 @@ public function obterVencedorBateria($id)
     // Determine o vencedor com base na soma das duas maiores notas finais
     if ($infoSurfista1['soma_notas_finais_maiores'] > $infoSurfista2['soma_notas_finais_maiores']) {
         $vencedor = $bateria->surfista1;
-        $infoVencedor = $infoSurfista1;
     } elseif ($infoSurfista1['soma_notas_finais_maiores'] < $infoSurfista2['soma_notas_finais_maiores']) {
         $vencedor = $bateria->surfista2;
-        $infoVencedor = $infoSurfista2;
     } else {
         $vencedor = null; // Empate
-        $infoVencedor = null;
     }
 
     return response()->json([
@@ -69,10 +66,8 @@ public function obterVencedorBateria($id)
                 'info' => $infoSurfista2,
             ],
         ],
-        'info_vencedor' => $infoVencedor,
     ], 200);
 }
-
 private function calcularNotas($notas, $surfistaId)
 {
     // Calcule as notas finais e parciais para cada surfista
