@@ -18,5 +18,4 @@ class Surfista extends Model
             ->orWhere('surfista2', $this->id);
     }
 
-    // Outros métodos ou lógica podem ser adicionados conforme necessário
 }
