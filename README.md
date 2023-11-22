@@ -111,8 +111,8 @@ A API Surf Horizon oferece as seguintes funcionalidades:
 ### 3. Criar Novas Baterias
 - **Rota:** `POST /api/baterias`
 - **Parâmetros de Entrada:**
-- `surfista1` (integer)
-- `surfista2` (integer)
+  - `surfista1` (integer)
+  - `surfista2` (integer)
 
 **Resposta Exemplo:**
 ```json
@@ -164,7 +164,7 @@ A API Surf Horizon oferece as seguintes funcionalidades:
 ### 6. Obter o Vencedor de uma Bateria
    - **Rota:** `GET /api/baterias/{id}/vencedor`
    - **Parâmetros de Entrada:**
-   -  `id` (integer).
+     -  `id` (integer)
 
 **Resposta Exemplo:**
 ```json
