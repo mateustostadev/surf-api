@@ -110,28 +110,109 @@ A API Surf Horizon oferece as seguintes funcionalidades:
 
 ### 3. Criar Novas Baterias
 - **Rota:** `POST /api/baterias`
-- **Parâmetros de Entrada:** `surfista1` (integer), `surfista2` (integer).
+- **Parâmetros de Entrada:**
+- `surfista1` (integer)
+- `surfista2` (integer)
 
 **Resposta Exemplo:**
 ```json
 {
-  "id": 1,
-  "surfista1": 1,
-  "surfista2": 2
+    "message": "Bateria cadastrada com sucesso.",
+    "bateria": {
+        "id": 1,
+        "surfista1_numero": 1,
+        "surfista2_numero": 2
+    }
 }
 ```
 
-4. **Cadastrar Nova Onda em uma Bateria**
-   - Rota: `POST /api/ondas`
-   - Parâmetros de entrada: `bateria` (integer), `surfista` (integer).
+### 4. Cadastrar Nova Onda em uma Bateria
+- **Rota:** `POST /api/ondas`
+- **Parâmetros de Entrada:**
+  - `bateria` (integer)
+  - `surfista` (integer)
+
+**Resposta Exemplo:**
+```json
+{
+    "message": "Onda cadastrada com sucesso.",
+    "onda": {
+        "bateria": 1,
+        "surfista": 1,
+        "updated_at": "2023-11-22T13:34:21.000000Z",
+        "created_at": "2023-11-22T13:34:21.000000Z",
+        "id": 1
+    }
+}
+```
      
-5. **Cadastrar Novas Notas em uma Onda**
-   - Rota: `POST /api/notas`
-   - Parâmetros de entrada: `onda` (integer), `notaParcial1` (float), `notaParcial2` (float), `notaParcial3` (float).
+### 5. Cadastrar Novas Notas em uma Onda
+- **Rota:** `POST /api/notas`
+- **Parâmetros de Entrada:**
+  - `onda` (integer)
+  - `notaParcial1` (double)
+  - `notaParcial2` (double)
+  - `notaParcial3` (double)
+
+**Resposta Exemplo:**
+```json
+{
+    "message": "Notas cadastradas com sucesso."
+}
+```
 
 6. **Obter o Vencedor de uma Bateria**
    - Rota: `GET /api/baterias/{id}/vencedor`
    - Parâmetros de entrada: `id` (integer).
+
+**Resposta Exemplo:**
+```json
+{
+    "vencedor": 2,
+    "participantes": [
+        {
+            "info": {
+                "surfista_id": 1,
+                "notas_finais": [
+                    {
+                        "nota_final": 2.3333333333333335
+                    },
+                    {
+                        "nota_final": 2.5
+                    }
+                ],
+                "soma_notas_finais_maiores": 4.833333333333334
+            }
+        },
+        {
+            "info": {
+                "surfista_id": 2,
+                "notas_finais": [
+                    {
+                        "nota_final": 2.5
+                    },
+                    {
+                        "nota_final": 2.5
+                    }
+                ],
+                "soma_notas_finais_maiores": 5
+            }
+        }
+    ],
+    "info_vencedor": {
+        "surfista_id": 2,
+        "notas_finais": [
+            {
+                "nota_final": 2.5
+            },
+            {
+                "nota_final": 2.5
+            }
+        ],
+        "soma_notas_finais_maiores": 5
+    }
+}
+```
 
 ## Exemplo no Postman
 
