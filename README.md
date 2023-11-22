@@ -15,51 +15,45 @@ Antes de começar, certifique-se de ter os seguintes requisitos instalados em se
 
 ### Passos para Instalação
 
-1. Instalando o Laravel:
-- Criar um novo projeto Laravel via Composer
-    ```bash
-    composer create-project laravel/laravel surf-api
-    ```
-    
-2. Clone o repositório:
+1. Clone o repositório:
 
     ```bash
     git clone https://github.com/Mateusmbarreto/surf-api.git
     ```
 
-3. Navegue até o diretório do seu projeto:
+2. Navegue até o diretório do seu projeto:
 
     ```bash
     cd surf-api
     ```
 
-4. Instale as dependências do Composer:
+3. Instale as dependências do Composer:
 
     ```bash
     composer install
     ```
 
-5. Copie o arquivo `.env.example` para um novo arquivo chamado `.env`:
+4. Copie o arquivo `.env.example` para um novo arquivo chamado `.env`:
 
     ```bash
     cp .env.example .env
     ```
 
-6. Configure o acesso ao banco de dados no arquivo `.env`.
+5. Configure o acesso ao banco de dados no arquivo `.env`.
 
-7. Execute as migrações para criar as tabelas do banco de dados:
+6. Execute as migrações para criar as tabelas do banco de dados:
 
     ```bash
     php artisan migrate
     ```
 
-8. Inicie o servidor Laravel:
+7. Inicie o servidor Laravel:
 
     ```bash
     php artisan serve
     ```
 
-9. Acesse o Laravel em `http://127.0.0.1:8000` no seu navegador e faça os devidos testes da API.
+8. Acesse o Laravel em `http://127.0.0.1:8000` no seu navegador e faça os devidos testes da API.
 
 ## Utilizando a API
 
