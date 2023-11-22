@@ -2,7 +2,7 @@
 
 ## Introdução
 
-Bem-vindo à documentação da API Surf Contest. Esta API permite gerenciar competições de surfe, surfistas, baterias, ondas e notas associadas a cada onda. A aplicação foi desenvolvida utilizando o framework Laravel, versão mais recente (10.32.0), e utiliza o banco de dados MySQL para armazenar os dados.
+Bem-vindo à documentação da API Surf Contest. Esta API permite gerenciar competições de surfe, surfistas, baterias, ondas e notas associadas a cada onda. A aplicação foi desenvolvida utilizando o framework Laravel, versão mais recente (10.32.0), e utiliza o banco de dados MySQL (8.0) para armazenar os dados.
 
 ## Instalação e Configuração do Laravel
 
@@ -15,45 +15,51 @@ Antes de começar, certifique-se de ter os seguintes requisitos instalados em se
 
 ### Passos para Instalação
 
-1. Clone o repositório:
+1. Instalando o Laravel:
+- Criar um novo projeto Laravel via Composer
+    ```bash
+    composer create-project laravel/laravel surf-api
+    ```
+    
+2. Clone o repositório:
 
     ```bash
     git clone https://github.com/Mateusmbarreto/surf-api.git
     ```
 
-2. Navegue até o diretório do seu projeto:
+3. Navegue até o diretório do seu projeto:
 
     ```bash
-    cd nome-do-projeto
+    cd surf-api
     ```
 
-3. Instale as dependências do Composer:
+4. Instale as dependências do Composer:
 
     ```bash
     composer install
     ```
 
-4. Copie o arquivo `.env.example` para um novo arquivo chamado `.env`:
+5. Copie o arquivo `.env.example` para um novo arquivo chamado `.env`:
 
     ```bash
     cp .env.example .env
     ```
 
-5. Configure o acesso ao banco de dados no arquivo `.env`.
+6. Configure o acesso ao banco de dados no arquivo `.env`.
 
-6. Execute as migrações para criar as tabelas do banco de dados:
+7. Execute as migrações para criar as tabelas do banco de dados:
 
     ```bash
     php artisan migrate
     ```
 
-7. Inicie o servidor Laravel:
+8. Inicie o servidor Laravel:
 
     ```bash
     php artisan serve
     ```
 
-8. Acesse o Laravel em `http://localhost:8000` no seu navegador.
+9. Acesse o Laravel em `http://127.0.0.1:8000` no seu navegador.
 
 ## Utilizando a API
 
