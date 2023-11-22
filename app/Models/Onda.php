@@ -29,5 +29,4 @@ class Onda extends Model
         return ($nota->notaParcial1 + $nota->notaParcial2 + $nota->notaParcial3) / 3;
     }
 
-    // Outros métodos ou lógica podem ser adicionados conforme necessário
 }
