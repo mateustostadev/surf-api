@@ -19,7 +19,7 @@ Antes de começar, certifique-se de ter os seguintes requisitos instalados em se
 1. Clone o repositório:
 
     ```bash
-    git clone https://github.com/Mateusmbarreto/surf-api.git
+    git clone https://github.com/mateustostadev/surf-api.git
     ```
 
 2. Navegue até o diretório do seu projeto:
