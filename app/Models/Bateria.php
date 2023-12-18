@@ -20,7 +20,6 @@ class Bateria extends Model
     // Método para obter o vencedor da bateria
     public function obterVencedor()
     {
-        // Implemente a lógica para determinar o vencedor da bateria
         // Retorna o Surfista vencedor
         return $this->ondas->sortByDesc('calcularMedia')->first()->surfista;
     }
