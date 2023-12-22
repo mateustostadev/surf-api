@@ -66,7 +66,7 @@ Antes de começar, certifique-se de ter os seguintes requisitos instalados em se
 
 ## Utilizando a API
 
-A API Surf Horizon oferece as seguintes funcionalidades:
+A API Surfe oferece as seguintes funcionalidades:
 
  ### 1. Obter Todos os Surfistas Cadastrados
    - Rota: `GET /api/surfistas`
